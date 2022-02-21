@@ -1,0 +1,424 @@
+/*----------------------Responsive Navigation Bar---------------------*/
+/*@media (max-width:1000px){
+	nav{
+		width: 100%;
+	 padding-top:20px;
+	 padding-left: 0px;
+	 padding-right: 0px;;
+		
+	 
+	}
+   
+  }*/
+  @media (max-width:1025px){
+	/* .brand{
+        
+         font-size: 25px;
+     }
+	 .menu-btn i{
+	  display:block;
+	  color:black;
+	 padding-top: 10px;
+	
+
+	}
+	#click:Checked ~ .menu-btn i:before{
+	  content:'\f00d';
+	  
+	}
+	nav ul{
+	  position:fixed;
+	  top:60px;
+	  left:-100%;
+	  background:whitesmoke;
+	  height:100%;
+	  width:100%;
+	  text-align: center;
+	  z-index:10;
+	  display:block;
+	  transition:all 0.3s ease;
+	  
+
+	}
+	#click:Checked ~ ul {
+	  left:0px;
+	 
+
+	}
+	nav ul li{
+	  width:100%;
+	  margin:10px 0;
+	}
+	nav ul li a{
+	  width:100%;
+	  margin-left:-100%;
+	  display:block;
+	  font-size: 15px;
+	  color: black;
+	  transition:0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+	nav ul li a.active,
+	nav ul li a:hover{
+		color: grey;
+	}
+
+	#click:Checked ~ ul li a{
+	  margin-left:0px;
+	}*/
+	.animated{
+		height: 500px;
+	}
+  }
+
+  @media(max-width:992px){
+	  .top{
+		  height: auto;
+	  }
+	  .animated{
+		  height: auto;
+	  }
+	  .trending1{
+		padding: 30px;
+	}
+    .q2{
+		margin-top:40px;
+	}
+	.q3{
+		margin-top: 40px;
+	}
+
+	.apps{
+		padding: 35px;
+	}
+	.app1{
+		padding-top: 25px;
+		font-size:35px;
+	}
+	.apply{
+		display: none;
+	}
+	.outer{
+		display: none;
+	}
+	.in{
+		display: none;
+	}
+	/*.footer{
+		text-align: center;
+	}
+	.logos{
+		text-align: center;
+	}
+	.social{
+		text-align: center;
+	}*/
+	.s11{
+		display: flex;
+		align-items: center;
+		justify-content: center;	
+	}
+	.textbox{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.questions{
+		padding:0px 40px;
+	}
+
+
+
+
+	.s33{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.s3{
+		margin-top: 30px;
+	}
+	.f1{
+		border-bottom: none;
+		border-right: none;
+	}
+	.f1 ul{
+		padding-left: 30px;
+		
+	}
+	.f1 ul{
+		font-size: 22px;
+	}
+	.toph6{
+		font-size: 26px;
+	}
+
+   hr{
+	   width: 2px;
+	   color: #FFA500;
+   }
+  }
+  @media (max-width:768px){
+	  .top{
+		  height: auto;
+		  padding-bottom: 80px;
+	  }
+	  
+	  .trending1{
+		padding: 20px;
+	}
+	  .f1{
+		  padding-left: 5px;
+	  }
+	  .caption{
+		  font-size: 22px;
+	  }
+	  .para{
+		  font-size: 15px;
+	  }
+	  .s33{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	  .s3{
+		margin-top: 30px;
+	}
+
+/*---------------------app------------------*/
+	.apps{
+		padding: 30px;
+	}
+
+/*-------------------Questions----------*/
+	.questions{
+		padding:0px 40px;
+	}
+	.q2{
+		margin-top:40px;
+	}
+	.q3{
+		margin-top: 40px;
+	}
+
+	  
+  }
+
+  @media (max-width:580px){
+	.top{
+		height: auto;
+		padding-bottom: 80px;
+	
+	}
+   /* .section2{
+		 background-color: yellowgreen;
+		 margin: 0px;
+		 padding: 0px;
+	}*/
+	
+
+	 
+	.eventul li{
+		font-size: 16px;
+	}
+	.study1{
+		font-size:23px;
+		
+	}
+	.study{
+		display: none;
+	}
+	.course{
+		padding-top:30px;
+      padding-bottom: 30px;
+	}
+	.course1{
+		margin-top: 20px;
+		padding:0px 30px;
+	}
+	.in{
+		display: none;
+	}
+	.apply{
+		display: none;
+	}
+
+	.trending1{
+		padding: 20px;
+	}
+	.abouth{
+		font-size: 27px;
+	}
+
+	.p1{
+		font-size:17px ;
+	}
+	.h21{
+		font-size: 24px;
+	}
+	.domain{
+		font-size: 27px;
+	}
+	.select{
+		margin-top: 30px;
+	}
+	.selecth{
+		font-size: 23px;
+	}
+
+	.select1h{
+		font-size: 19px;
+	}
+	/*.selectim{
+		background-color: #FFA500;
+		padding: 30px;
+	}*/
+	.select1{
+		margin-top: 20px;
+		padding: 0px 30px;
+		
+	}
+	
+
+	.abroad{
+		margin-top: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.abroadh{
+		font-size: 27px;
+	}
+    
+	.btn4{
+		width: 200px;
+		padding: 9px;
+		height: 60px;
+	}
+	.abroadh1{
+		font-size: 20px;
+	
+	}
+    .assist{
+		margin-top: 30px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.assisth{
+		font-size: 27px;
+	}
+
+	.blog{
+		margin-top: 30px;
+	}
+	.swiper{
+		margin-top: 20px;
+	}
+	.blogh{
+		font-size: 27px;
+	}
+	.imh{
+		font-size: 27px;
+	}
+  /*-------------------Subscribe--------------------*/
+	.subscribe{
+		margin-top: 40px;
+	}
+	.s1{
+		font-size: 20px;
+	}
+	.s33{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.s3{
+		margin-top: 30px;
+	}
+	
+	
+	.caption{
+		font-size: 22px;
+	}
+	.para{
+		font-size: 15px;
+	}
+
+/*-------------------app---------------*/
+	  .app{
+		  margin-top: 40px;
+	  }
+     .app1{
+		 padding-top: 5px;
+		 font-size:22px;
+	 }
+     .apps{
+		 padding: 20px;
+	 }
+	 
+
+	 /*----------------questions-------------*/
+      .question{
+		  margin-top: 30px;
+	  }
+      .questions{
+		  padding: 20px;
+	  }
+
+
+    .q2{
+		margin-top:30px;
+	}
+	.q3{
+		margin-top: 20px;
+	}
+
+	/*----------------footer-------*/
+	/*.footer1{
+		padding: 40px;
+	}*/
+	.footer{
+		margin-top: 30px;
+	}
+   .footer1{
+	   padding: 0 50px;
+   }
+	.f1 ul{
+		padding-left: 20px;
+		
+	}
+	.toph6{
+		font-size: 20px;
+	}
+
+	.ids img{
+		width: 20px;
+		height: 20px;
+	}
+	.ids{
+		font-size: 15px;
+	}
+	.social1{
+		font-size: 15px;
+	}
+	Address{
+     font-size: 15px;
+	}
+	.f1 ul li a{
+		font-size: 15px;
+	}
+  }
+
+  @media (max-width:320px){
+	  .study1{
+		  font-size:25px;
+	  }
+	  .in{
+		display: none;
+	}
+
+	  .abouth{
+		font-size: 27px;
+	}
+	
+  }
