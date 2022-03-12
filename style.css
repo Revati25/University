@@ -35,22 +35,23 @@ nav{
   top: 20px;
   left: 0;
   width: 100%;
-  height: 100%;
+  
   height: 70px;
   
   /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
   /*z-index: 99;*/
 }
 nav .navbar{
-  height: 100%;
-  max-width: 1250px;
+  height: auto;
+ /* max-width: 1250px;*/
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   /*margin: auto;*/
   /* background: red; */
-  padding: 20px 50px;
+ /* padding: 20px 50px;*/
+ 
 }
 .navbar .logo a{
   font-size: 30px;
@@ -58,10 +59,10 @@ nav .navbar{
   text-decoration: none;
   font-weight: 600;
 }
-nav .navbar .nav-links{
-  line-height: 70px;
-  height: 100%;
-}
+/*nav .navbar .nav-links{
+  /*line-height: 70px;
+ 
+}*/
 nav .navbar .links{
   display: flex;
 }
@@ -86,7 +87,8 @@ nav .navbar .links li{
   padding-top: 20px;
 }
 .links li a:hover{
-  border-bottom: 2px solid #FFA500;
+  /*border-bottom: 2px solid #FFA500;*/
+  color:#FFA500;
 }
 
 
@@ -94,21 +96,26 @@ nav .navbar .links li{
 .links li:hover .js-arrow{
   transform: rotate(180deg);
   }
-  .htmlCss-sub-menu, .more-sub-menu, .js-sub-menu{
+  .htmlCss-sub-menu,  .js-sub-menu{
     width:250px;
     color: white;
     
   }
-
+ 
+ .more-sub-menu{
+  
+   margin-left: 10px;
+ }
   .more-sub-menu li{
-    width:200px;
+    /*width:200px;*/
     height: 50px;
-    padding: 15px;
-    margin: 5px;
-    border:2px solid black;
-    border-bottom: 2px solid black;
+    /*padding: 15px;*/
+    margin: 20px;
+    /*border: 2px solid black;*/
     border-radius: 5px;
+   
   }
+ 
 
  .links li .arrow{
   /* background: red; */
@@ -124,10 +131,10 @@ nav .navbar .links li .sub-menu{
   position: absolute;
   top: 70px;
   left: 0;
-  line-height: 40px;
+  /*line-height: 20px;*/
   background: whitesmoke;
  /*background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));*/
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px rgba(0, 0, 0, 0.7);
   border-radius: 0 0 4px 4px;
   display: none;
   z-index: 2;
@@ -146,8 +153,8 @@ nav .navbar .links li:hover .js-sub-menu{
 
 
 .navbar .links li .sub-menu li{
-  padding: 0 22px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 0 2px;
+  /*border-bottom: 2px solid rgba(255,255,255,0.1);*/
 }
 .navbar .links  a{
   /*color: black;*/
@@ -157,15 +164,14 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 .sub-menu li a{
   color: white;
+  text-align: center;
 }
 .js-sub-menu li a{
   color:white;
   
 
 }
-.sub-menu li a{
-  color: white;
-}
+
 .sub-menu a:hover{
   color: #FFA500;
   border-bottom: 4px solid #FFA500;
@@ -200,7 +206,7 @@ nav .navbar .links li:hover .js-sub-menu{
   color: white;
   border-radius: 50px;
 }
-.navbar .search-box i{
+.navbar .bar .cross {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -224,7 +230,7 @@ nav .navbar .links li:hover .js-sub-menu{
   pointer-events: none;
   transition: all 0.4s ease;
 }
-.navbar.showInput .search-box .input-box{
+.navbar .showInput .search-box .input-box{
   top: 65px;
   opacity: 1;
   pointer-events: auto;
@@ -261,10 +267,10 @@ nav .navbar .links li:hover .js-sub-menu{
   display: none;
 }
 
-@media (max-width:1025px){
-  nav{
-    /* position: relative; */
-  }
+@media (max-width:1024px){
+  /*nav{
+    /* position: relative; 
+  }*/
   .navbar .bx-menu{
     display: block;
   }
@@ -280,8 +286,8 @@ nav .navbar .links li:hover .js-sub-menu{
     /*background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));*/
     /*background:#222831;*/
     background-color: #151B54;
-    line-height: 40px;
-    padding: 20px;
+    line-height: 10px;
+    padding: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
    /* transition: all 0.5s ease;*/
    transition: 0.5s;
@@ -293,11 +299,11 @@ nav .navbar .links li:hover .js-sub-menu{
     font-size: 27px;
   }
   nav .navbar .links li{
-    padding: 10px 10px;
+    /*padding: 10px 10px;*/
     white-space: nowrap;
   }
   nav .navbar .links li a{
-    font-size: 25px;
+    font-size: 16px;
     color: white;
   }
   .navbar .nav-links .sidebar-logo{
@@ -309,8 +315,8 @@ nav .navbar .links li:hover .js-sub-menu{
     font-size: 25px;
     color:white;
   }
-    .sidebar-logo  i,
-    .navbar{
+    .sidebar-logo  i
+   {
       font-size: 25px;
       color:white;
     }
@@ -319,10 +325,10 @@ nav .navbar .links li:hover .js-sub-menu{
     }
   nav .navbar .links{
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   nav .navbar .links li .arrow{
-    line-height: 45px;
+    line-height:10px;
     color: whitesmoke;
   }
 nav .navbar .links li{
@@ -336,17 +342,34 @@ nav .navbar .links li .sub-menu{
 }
 .htmlCss-sub-menu, .more-sub-menu, .js-sub-menu{
   width:250px;
-  color: white;
+  color:#151B54;
   
 }
+.sub-menu li a{
+  color:#151B54;
+  text-align: center;
+}
+
 nav .navbar .links li .sub-menu{
-  background-color: #151B54;
+  background-color:whitesmoke;
 }
 
 nav .navbar .links li .sub-menu li{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
+  color: #151B54;
 
 }
+.navbar .links li .sub-menu .more-arrow{
+  color: #151B54;
+}
+.sub-menu{
+  width: 190px;
+}
+
+nav .navbar .links li .sub-menu li a{
+  color: #151B54;
+}
+
 .navbar .links li .sub-menu .more-sub-menu{
   display: none;
   position: relative;
@@ -391,6 +414,19 @@ nav .navbar .links li .sub-menu li{
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
     }
+}
+@media (max-width:768px){
+  nav .navbar .links li a{
+    font-size: 16px;
+    color: white;
+  }
+  nav .navbar .links li{
+    margin-top: 8px;
+  }
+  .links li .arrow{
+    line-height:100px;
+    color: #FFA500;
+  }
 }
 @media (max-width:370px){
   nav .navbar .nav-links{
