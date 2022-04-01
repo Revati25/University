@@ -1,10 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'AvertaStd-Regular';
+  src: url(Avertafont/AvertaStd-Regular.ttf);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  font-family:'AvertaStd-Regular' ,sans-serif;
+
 }
  /*----------------------top-----------------------------*/
  .top{
@@ -12,7 +19,7 @@
     height:690px;
     background-image:url("images/39695.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
  /*---------------------Navigation Bar----------------------*/ 
@@ -56,14 +63,7 @@ nav .wrapper{
   border-radius: 5px;
   transition: all 0.3s ease;
 }
-/*.btns{
-    background-color: #151B54;
-    color: white;
-    border-radius: 20px;
-    width: 130px;
-    height: 60px;
-    
-  }*/
+
   .nav-links li .active{
     background: #151B54;
     color: #FFA500; 
@@ -202,6 +202,7 @@ nav .wrapper{
   }
   .nav-links li{
     margin: 15px 10px;
+    border-bottom: 1px solid #C0C0C0;
   }
   .nav-links li a{
     padding: 12px;
@@ -650,6 +651,12 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
+    .infoh a{
+      color: black;
+    }
+    .infoh a:hover{
+      color: #FFA500;
+    }
   
     .read{
       width: 200px;
@@ -848,3 +855,240 @@ nav input{
       text-align: center;
       color: whitesmoke;
   }
+
+
+  /*************************About.html*************************/
+ 
+  .menu{
+    background-color: #DCDCDC;
+
+  }
+  .menu a{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+.tops{
+  background-image: linear-gradient(rgba(0, 0, 128, 0.5), rgba(0, 0, 128, 0.5)), url("images/delhi.webp");
+  background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  height:auto;
+   
+
+}
+
+.iit h5{
+  color: white;
+  font-weight: 700;
+}
+.iit p{
+  color: white;
+  font-weight: 700;
+}
+
+.rating2{
+  /*width: 400px;
+  height: 140px;*/
+  background-color: white;
+}
+.ratings{
+  border-right: 2px solid gray;
+  text-align: center;
+  font-size: 45px;
+  color: #00CED1;
+  font-weight: 700;
+  padding-right: 20px;
+}
+.ratings i{
+  color:#FFA500;
+}
+.views{
+  color: #00CED1;
+  font-weight: 700;
+  font-size: 45px;
+  padding-left: 20px; 
+}
+.reviews{
+  font-weight: 700;
+  font-size: 25px;
+  padding-left: 20px; 
+}
+.brochure a{
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  background-color: #00CED1;
+  margin-right: 15px;
+}
+  .content1{
+    background-color:#DCDCDC;
+    padding: 25px;
+  }
+  .content2{
+    background-color:#DCDCDC;
+    padding: 25px;
+  }
+.sidebar1{
+  background-color:#DCDCDC;
+  padding: 15px;
+  
+}
+.sidebar2{
+  background-color:#DCDCDC;
+  padding: 15px;
+}
+
+.sections1{
+  background-color:whitesmoke;
+  
+ 
+}
+.sidebars2{
+  background-color:whitesmoke; 
+  margin: 10px;
+
+}
+.sec1b ul li{
+ display: inline;
+ border:2ps solid black;
+ background-color:#00CED1;
+ border-radius: 10px;
+ padding: 5px;
+ color: white;
+}
+.sec1b ul li a{
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.sec2{
+
+  background-color: #52D017;
+  padding: 10px;
+  color: white;
+}
+
+.sec3{
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 2px solid black;
+}
+.sec3 a{
+  border: 1px dashed gray;
+  padding: 10px;
+}
+
+.apply{
+  border-color: red;
+  color: red;
+}
+.navss{
+  padding: 20px;
+  background-color:#DCDCDC;
+ 
+}
+.navs {
+padding: 15px;
+ background-color: whitesmoke;
+ margin-right: 10px;
+ font-weight: 700;
+ color: #151B54;
+}
+.actives{
+  background-color:#00BFFF;
+}
+
+/*----------------------Blog.html----------------------*/
+.blogsw{
+  height: 500px;
+  width: 100%;
+  background-image: url(images/cn-305-banner-1140x640.jpg);
+  background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+ margin: 0px;
+ margin-top: 20px;
+ padding: 0px;
+
+}
+.bloghs{
+ 
+  height: 400px;
+  
+}
+.bloghs h1{
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+
+}
+.cb {
+  border-bottom:1px solid #C0C0C0 ;
+  box-shadow: rgba(0,0,0,0.4);
+}
+.cb ul li{
+  display: inline;
+  padding: 5px;
+}
+.cb ul li a{
+  color: gray;
+  font-size: 18px;
+}
+.cb ul li a i{
+  color: #FFA500;
+  font-size: 18px;
+}
+
+.search {
+  border: 1px solid #C0C0C0;
+}
+
+.search h3{
+  color: #151B54;
+  text-align: center;
+  font-family:'AvertaStd-Regular' ,sans-serif;
+  font-size: 800;
+}
+.recentpost{
+  border: 1px solid #C0C0C0;
+}
+.recentpost a{
+  color: #3A3B3C;
+}
+.recentpost a:hover{
+  color: #FFA500;
+}
+.auth{
+  border-bottom: 1px solid #C0C0C0 ;
+}
+
+.follow{
+  border: 1px solid #C0C0C0;
+  padding: 10px;
+}
+.social22{
+    display: inline;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.social22 a{
+  padding:  5px 15px;
+  width: 80px;
+  height: 80px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
