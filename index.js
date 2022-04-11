@@ -42,3 +42,28 @@ var swiper = new Swiper(".mySwiper", {
         }
       },
   });
+
+
+  var overview = new Swiper(".overview", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    freeMode: true,
+    loop:true,
+    navigation :{
+    nextE1: '.swiper-button-next',
+    prevE1: '.swiper-button-prev',
+    },
+    
+    breakpoints: {
+      1200: {
+        slidesPerView:5,
+    },
+      768: {
+        slidesPerView:3,
+      },
+      280: {
+        slidesPerView:2,
+      }
+    },
+   
+  });

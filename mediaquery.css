@@ -15,6 +15,14 @@
     .trending1{
       padding: 30px;
   }
+
+  .abroadc:hover{
+    
+    transition: none !important;
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    z-index: 2;
+}
   .q2{
       margin-top:40px;
   }
@@ -92,6 +100,43 @@
      width: 2px;
      color: #FFA500;
  }
+
+/***************************About Us.html***************************/
+
+
+
+
+
+
+
+
+
+
+
+/*********************************service.html***********************/
+
+
+.counseling:hover{
+    
+    transition: none !important;
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    z-index: 2;
+}
+
+.counseling2:hover{
+    
+    transition: none !important;
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    z-index: 2;
+}
+
+
+
+
+
+
 }
 @media (max-width:768px){
     .top{
@@ -136,7 +181,38 @@
   .q3{
       margin-top: 40px;
   }
+/*************************About.html*************************/
+.tech img{
+    width: 150px;
+    height: 100px;
+}
+.iit h5{
+    font-size: 17px;
+}
 
+.rating1{
+    padding-top: 5px;
+}
+
+.ratings p{
+    font-size: 30px;
+    text-align: right;
+}
+.a1{
+   font-size: 30px; 
+}
+.a2{
+    font-size: 14px;
+}
+.brochure{
+    margin-top: 10px;
+}
+
+
+/****************blog.html*******************/
+.bloghs h1{
+    font-size: 35px;
+}
     
 }
 
@@ -377,8 +453,57 @@
   .f1 ul li a{
       font-size: 15px;
   }
+
+
+
+/***************************About Us.html***************************/
+.servs h1, .mission h1, .abouth{
+    font-size:25px;
+
+}
+.numh3, .numh6, .go1 h2, .reviewp1 p, .speaks h3{
+    font-size: 20px;
 }
 
+
+.stari i {
+    font-size: 30px;
+}
+.visionp, .texts{
+    font-size: 16px;
+}
+
+
+/************************Blog.html**************************/
+.blogsw{
+    height: 250px;
+}
+.bloghs{
+
+    height: auto;
+    padding-top: 80px;
+}
+.searching{
+    margin: 20px;
+}
+
+.techno img{
+    height: 200px;
+}
+.cb ul li a{
+    font-size: 13px;
+}
+.cb ul li a i{
+    font-size: 13px;
+}
+.technoh5{
+    font-size: 20px;
+}
+
+.technop{
+    font-size: 14px;
+}
+}
 @media (max-width:320px){
     .study1{
         font-size:25px;

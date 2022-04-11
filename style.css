@@ -1,7 +1,8 @@
 
 @font-face {
-  font-family: 'AvertaStd-Regular';
+  font-family: 'AvertaStd-Regular' ;
   src: url(Avertafont/AvertaStd-Regular.ttf);
+
 }
 *{
   margin: 0;
@@ -9,10 +10,7 @@
   box-sizing: border-box;
 
 }
-body{
-  font-family:'AvertaStd-Regular' ,sans-serif;
 
-}
  /*----------------------top-----------------------------*/
  .top{
     width: 100%;
@@ -538,10 +536,18 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
-    .card{
+    .abroadc{
       padding-bottom: 40px;
       background-color:  #E5E4E2;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
     }
+    .abroadc:hover{
+ 
+      transition: all 0.3s ease !important;
+      -webkit-transform: scale(1.1) !important;
+      -ms-transform: scale(1.1) !important;
+      z-index: 2;
+     }
     .card-deck{
       margin-top: 40px;
     }
@@ -880,6 +886,7 @@ nav input{
 
 }
 
+
 .iit h5{
   color: white;
   font-weight: 700;
@@ -889,16 +896,16 @@ nav input{
   font-weight: 700;
 }
 
-.rating2{
+/*.rating2{
   /*width: 400px;
-  height: 140px;*/
+  height: 140px;
   background-color: white;
-}
+}*/
 .ratings{
-  border-right: 2px solid gray;
+  border-right: 2px solid white;
   text-align: center;
   font-size: 45px;
-  color: #00CED1;
+  color:whitesmoke;
   font-weight: 700;
   padding-right: 20px;
 }
@@ -906,10 +913,18 @@ nav input{
   color:#FFA500;
 }
 .views{
-  color: #00CED1;
+  color:whitesmoke;
+  padding-top: 17px;
   font-weight: 700;
-  font-size: 45px;
   padding-left: 20px; 
+}
+
+.a1{
+  font-size: 45px;
+
+}
+.a2{
+  font-size: 15px;
 }
 .reviews{
   font-weight: 700;
@@ -922,7 +937,25 @@ nav input{
   font-weight: 700;
   background-color: #00CED1;
   margin-right: 15px;
+  border-radius: 20px;
+ transition: tranform 0.3s ease;
 }
+
+.brochure a:hover{
+  text-decoration: none;
+ color: black;
+ background-color: #FFA500; 
+ 
+  
+}
+
+
+
+
+
+
+
+
   .content1{
     background-color:#DCDCDC;
     padding: 25px;
@@ -931,6 +964,24 @@ nav input{
     background-color:#DCDCDC;
     padding: 25px;
   }
+
+
+  .tables{
+    background-color: white;
+  }
+  .table, tr, td{
+    border: 1px solid #C0C0C0;
+  }
+  .tableh6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00CED1;
+  }
+  .tablep{
+    color: black;
+    font-weight: 600;
+  }
+
 .sidebar1{
   background-color:#DCDCDC;
   padding: 15px;
@@ -986,11 +1037,13 @@ nav input{
   color: red;
 }
 .navss{
-  padding: 20px;
+
   background-color:#DCDCDC;
  
 }
 .navs {
+  margin-top: 20px;
+  margin-bottom: 20px;
 padding: 15px;
  background-color: whitesmoke;
  margin-right: 10px;
@@ -1003,7 +1056,7 @@ padding: 15px;
 
 /*----------------------Blog.html----------------------*/
 .blogsw{
-  height: 500px;
+  height: 450px;
   width: 100%;
   background-image: url(images/cn-305-banner-1140x640.jpg);
   background-repeat: no-repeat;
@@ -1027,6 +1080,13 @@ padding: 15px;
   border-bottom: 2px solid white;
 
 }
+.techno img{
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
 .cb {
   border-bottom:1px solid #C0C0C0 ;
   box-shadow: rgba(0,0,0,0.4);
@@ -1037,11 +1097,11 @@ padding: 15px;
 }
 .cb ul li a{
   color: gray;
-  font-size: 18px;
+  font-size: 15px;
 }
 .cb ul li a i{
   color: #FFA500;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .search {
@@ -1050,12 +1110,16 @@ padding: 15px;
 
 .search h3{
   color: #151B54;
-  text-align: center;
-  font-family:'AvertaStd-Regular' ,sans-serif;
+ 
+  font-family:'AvertaStd-Semibold';
   font-size: 800;
 }
 .recentpost{
   border: 1px solid #C0C0C0;
+}
+.recentpost h3{
+  font-family:'AvertaStd-Semibold';
+  font-size: 800;
 }
 .recentpost a{
   color: #3A3B3C;
@@ -1071,21 +1135,229 @@ padding: 15px;
   border: 1px solid #C0C0C0;
   padding: 10px;
 }
+.follow h3{
+  font-family:'AvertaStd-Semibold';
+  font-size: 800;
+}
 .social22{
     display: inline;
-    font-size: 25px;
-    padding-right: 10px;
+    font-size: 20px;
+    padding-right: 5px;
 }
 .social22 a{
   padding:  5px 15px;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   line-height: 50px;
   color: white;
   text-align: center;
 }
+/********************************About Us.html*************************/
+#header3 .animated{
+  border-radius: 20px;
+animation: up-down 1s ease-in-out infinite alternate-reverse both;
+
+}
 
 
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+.serv1{
+
+  height: 350px;
+
+}
+.servs h1, .mission h1, .abouth{
+  font-size:35px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+  font-family:"AvertaStd-Regular",sans-serif;
+
+}
+.numh3, .numh6, .go1 h2, .reviewp1 p, .speaks h3{
+  font-size: 27px;
+}
+
+
+.stari i {
+  font-size: 60px;
+}
+.visionp, .texts{
+  font-size: 16px;
+}
+
+/*.card{
+  height: 100%;
+  
+}*/
+
+.serv2{
+  background-color: #00BFFF;
+  height: 100%;
+}
+.serv1a{
+  border-bottom: none;
+  
+}
+.mission{
+  background-color: #E5E4E2;
+}
+
+.bottom{
+  background-color:whitesmoke;
+  height: 150px;
+  width: 300px;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
+
+}
+.texts{
+  text-align: center;
+  line-height: 25px;
+  font-weight: 600;
+  font-family:"AvertaStd-Regular",sans-serif;
+  font-size:17px;
+  color: white;
+}
+.bottom i{
+  font-size: 60px;
+}
+ .num{
+   background-color:#E5E4E2;
+ }
+.speaks h3{
+  text-align: center;
+  font-family:"AvertaStd-Regular",sans-serif;
+  font-weight: 700;
+}
+.numh3{
+  text-align: center;
+  font-family:"AvertaStd-Regular",sans-serif;
+  font-weight: 800;
+}
+.numh6{
+  text-align: center;
+  font-family:"AvertaStd-Regular",sans-serif;
+  font-weight: 800;
+}
+
+.number{
+  text-align: center;
+  font-family:"AvertaStd-Regular",sans-serif;
+}
+.number i{
+  text-align: center;
+  font-size: 50px;
+  color: #151B54;
+}
+
+
+
+
+.go h1{
+  font-size: 70px;
+  font-weight:bold;
+  font-family: "AvertaStd-Regular";
+}
+.googlep{
+  font-size: 30px;
+  font-weight: 700;
+}
+ 
+.stari{
+  list-style-type: none;
+  display: inline;
+  
+}
+.stari i{
+  font-size: 60px;
+  color: #FFA500;
+}
+.reviewp1 p{
+  font-size: 40px;
+  color: #FFA500;
+  font-weight: 700;
+  font-family:"AvertaStd-Regular" ;
+}
+
+
+/*****************************Services.html*************************/
+
+.headers-img img{
+  width: 100%;
+  height: 100%;
+}
+.counseling1a{
+background-color:#E5E4E2;
+}
+.counseling{
+  padding-bottom: 0px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
+}
+.counseling2{
+  padding-bottom: 0px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.15), 0 15px 12px rgba(0,0,0,0.15);
+}
+.counseling:hover{
+ 
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    z-index: 2;
+   }
+   .counseling2:hover{
+ 
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    z-index: 2;
+   }
+.body1{
+  border: 2px solid black;
+  border-top: none;
+
+}
+.imgtop{
+  opacity: 1.6;
+}
+.cardh3{
+  position:absolute;
+  top: 20%;
+  left: 30%;
+  color:black;
+  font-weight: 800;
+  font-family:"AvertaStd-Regular",sans-serif;
+  
+}
+
+
+/*.imgss{
+  height:260px ;
+}*/
+
+/*.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 128, 0.3), rgba(0, 0, 128, 0.3));
+}*/
 
 
 
