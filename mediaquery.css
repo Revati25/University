@@ -6,6 +6,107 @@
 
 }
 @media(max-width:992px){
+    .navigation{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+
+    nav .wrapper{
+        display: none;
+    }
+    .zeynep{
+        display: block;
+      }
+      
+      main, h1, .lead, .btn-open{
+        display: block;
+      }
+
+      .zeynep {
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        overflow: hidden;
+        overflow-y: auto;
+        z-index: 1011;
+        pointer-events: none;
+        transform: translateX(-100%) translateZ(0px);
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      .zeynep:not(.no-transition),
+      .zeynep .submenu:not(.no-transition) {
+        /* if transitions are not disabled */
+        transition: all 250ms;
+      }
+      
+      .zeynep-overlay {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+        position: fixed;
+        z-index: 1010;
+        background-color: rgba(0, 0, 0, .42);
+      }
+      
+      .zeynep-opened .zeynep-overlay {
+        display: block;
+      }
+      
+      .zeynep.opened {
+        pointer-events: auto;
+        transform: translateX(0px) translateZ(0px);
+      }
+      
+      .zeynep.submenu-opened {
+        overflow: hidden;
+      }
+      
+      .zeynep .submenu {
+        top: 0;
+        bottom: 0;
+        min-height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        position: fixed;
+        width: 100%;
+        pointer-events: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      .zeynep .submenu.opened {
+        left: 0;
+        pointer-events: auto;
+      }
+      
+      .zeynep .submenu.opened:not(.current) {
+        overflow: hidden;
+      }
+
+      /* right side menu specific styles */
+body {
+    right: 0;
+  }
+  
+  .zeynep-opened body {
+    overflow: hidden;
+  }
+  
+  .zeynep.right {
+    left: auto;
+    right: 0;
+  }
+  .zeynep.right:not(.opened) {
+    transform: translateX(100%);
+  }
+
+
+
+
     .top{
         height: auto;
     }
@@ -139,23 +240,39 @@
 
 }
 @media (max-width:768px){
+    .navigation{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+
+    nav .wrapper{
+        display: none;
+    }
+    
     .top{
         height: auto;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
     
     .trending1{
       padding: 20px;
   }
+
+  .c1{
+      margin: 0px;
+
+  }
+
+ 
+  .selecth, .abroadh, .assisth, .domain{
+      font-size: 14px;
+  }
     .f1{
         padding-left: 5px;
     }
-    .caption{
-        font-size: 22px;
-    }
-    .para{
-        font-size: 15px;
-    }
+    
     .s33{
       display: flex;
       align-items: center;
@@ -164,6 +281,20 @@
 
     .s3{
       margin-top: 30px;
+  }
+
+  .select1h{
+      font-size: 12px;
+    
+  }
+  .para li{
+      font-size: 12px;
+  }
+  .caption{
+      font-size: 14px;
+  }
+  .abouth5{
+      font-size: 16px;
   }
 
 /*---------------------app------------------*/
@@ -180,6 +311,20 @@
   }
   .q3{
       margin-top: 40px;
+  }
+
+  .footer1{
+      padding: 0 10px;
+  }
+  .f1{
+      padding-left: 0px;
+  }
+  .f1 ul{
+      padding-left: 0px;
+  }
+ 
+  hr{
+      display: none;
   }
 /*************************About.html*************************/
 .tech img{
@@ -219,7 +364,7 @@
 @media (max-width:580px){
   .top{
       height: auto;
-      padding-bottom: 80px;
+      padding-bottom: 2px;
   
   }
  /* .section2{
@@ -228,7 +373,16 @@
        padding: 0px;
   }*/
   
-
+  .trendingp{
+      font-size: 10px;
+  }
+   #header3{
+       margin-top: 20px;
+     
+      
+      
+   }
+ 
    
   .eventul li{
       font-size: 16px;
@@ -291,31 +445,53 @@
   }
 
   .trending1{
-      padding: 20px;
+      padding: 0px;
   }
-  .abouth{
-      font-size: 27px;
+  .trend1{
+      padding: 0px;
+      align-items: left;
+  }
+  .trend1 img{
+      width: 25px;
+      height: 30px;
+  }
+  .trend1 p{
+    font-size: 14px;
+}
+  .trend2{
+      font-size: 13px;
   }
 
+  .abouth{
+      font-size: 16px;
+     
+  }
+
+
   .p1{
-      font-size:17px ;
+      font-size:12px ;
   }
   .h21{
-      font-size: 24px;
+      font-size: 19px;
+  }
+
+  .course{
+      margin-top: 15px;
   }
   .domain{
-      font-size: 27px;
+      font-size: 22px;
+  }
+  .domainh5{
+      font-size: 16px;
   }
   .select{
       margin-top: 30px;
   }
   .selecth{
-      font-size: 23px;
+      font-size: 20px;
   }
 
-  .select1h{
-      font-size: 19px;
-  }
+  
   /*.selectim{
       background-color: #FFA500;
       padding: 30px;
@@ -333,13 +509,26 @@
       padding-bottom: 20px;
   }
   .abroadh{
-      font-size: 27px;
+      font-size: 20px;
   }
-  
+  .abroadh5{
+      font-size: 14px;
+  }
   .btn4{
-      width: 200px;
-      padding: 9px;
-      height: 60px;
+    width:160px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .read{
+      margin-top: 0px;
+    width:160px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 16px; 
   }
   .abroadh1{
       font-size: 20px;
@@ -351,14 +540,31 @@
       padding-bottom: 20px;
   }
   .assisth{
-      font-size: 27px;
+      font-size: 20px;
+  }
+  .para li{
+      list-style-type: square;
   }
 
   .blog{
       margin-top: 30px;
+   
   }
+  .slides{
+      padding: 0px;
+      margin:0px;
+  }
+  .infoh{
+      font-size: 20px;
+  }
+  .info p{
+      font-size: 14;
+      margin: 0px;
+      padding: 0px;
+  } 
   .swiper{
       margin-top: 20px;
+     
   }
   .blogh{
       font-size: 27px;
@@ -383,12 +589,12 @@
   }
   
   
-  .caption{
+  /*.caption{
       font-size: 22px;
-  }
-  .para{
+  }*/
+  /*.para{
       font-size: 15px;
-  }
+  }*/
 
 /*-------------------app---------------*/
     .app{
@@ -423,7 +629,7 @@
   /*.footer1{
       padding: 40px;
   }*/
-  .footer{
+  /*.footer{
       margin-top: 30px;
   }
  .footer1{
@@ -432,9 +638,12 @@
   .f1 ul{
       padding-left: 20px;
       
+  }*/
+  .footer{
+      margin-top: 20px;
   }
   .toph6{
-      font-size: 20px;
+      font-size: 16px;
   }
 
   .ids img{
@@ -442,19 +651,30 @@
       height: 20px;
   }
   .ids{
-      font-size: 15px;
+      font-size: 13px;
   }
   .social1{
-      font-size: 15px;
+      font-size: 13px;
   }
   Address{
-   font-size: 15px;
+   font-size: 13px;
   }
   .f1 ul li a{
-      font-size: 15px;
+      font-size: 13px;
+  }
+  .copy1 p{
+ font-size: 12px;
   }
 
 
+  /***************************Colleges.html***************************************/
+ .filters{
+     overflow: visible;
+     overflow-y: hidden;
+ }
+  .filtersul li{
+    display: inline;
+}
 
 /***************************About Us.html***************************/
 .servs h1, .mission h1, .abouth{
@@ -503,7 +723,86 @@
 .technop{
     font-size: 14px;
 }
+
+/*********************************contact.html***********************/
+form{
+    padding: 15px;
 }
+.rowss{
+    margin-right: 10px;
+}
+.contacth1{
+    font-size: 25px;
+   
+    text-align: center;
+  
+    font-family: "Averta-Semibold";
+   
+    
+}
+.loc1{
+  font-size: 23px;
+}
+.loc2{
+ font-size: 18px;
+}
+.locp{
+ font-size: 15px;
+}
+
+
+
+/************************Exams.html****************************/
+.entrance{
+    height: 300px;
+}
+.entranceh1 h1{
+ font-size: 25px;
+ margin-top: 80px;
+}
+.exploreh1{
+    font-size: 22px;
+}
+.exploreh2{
+    font-size: 19px;
+}
+.exploreim{
+    border-right: none;
+    border-bottom: 1px solid gray;
+}
+/************************Top Courses.html**********************/
+.courseimg img{
+ 
+    height: 250px;
+}
+.courserow{
+    position:absolute;
+    top: 30%;
+    left: 0%;
+    padding: 15px;
+   }
+   .courseh11 h2{
+    font-family: "Averta-Semibold";
+    font-size: 20px;
+    padding-left: 16px;
+
+   }
+   .topcoursesh1{
+       font-size: 19px;
+   }
+   .choicet{
+       font-size: 14px;
+   }
+
+   /****************************News.html***************************/
+   .newsi i{
+    font-size: 40px;
+  }
+  
+}
+
+
+
 @media (max-width:320px){
     .study1{
         font-size:25px;
@@ -513,7 +812,13 @@
   }
 
     .abouth{
-      font-size: 27px;
+      font-size: 16px;
+  }
+  .p1{
+      font-size: 12px;
+  }
+  .trendingp{
+      font-size: 10px;
   }
   
 }

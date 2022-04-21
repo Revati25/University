@@ -1,0 +1,17 @@
+/* right side menu specific styles */
+body {
+  right: 0;
+}
+@media(max-width:992px){
+.zeynep-opened body {
+  overflow: hidden;
+}
+
+.zeynep.right {
+  left: auto;
+  right: 0;
+}
+.zeynep.right:not(.opened) {
+  transform: translateX(100%);
+}
+}
