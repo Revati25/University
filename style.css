@@ -262,6 +262,10 @@ nav input{
   .ii{
     background-color: white;
   }
+
+  .searchi i{
+    color:black; font-size: 30px; padding: 5px;
+  }
   .in{
    padding-right: 0px;
    margin-right: 0px;
@@ -389,6 +393,10 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
+
+    .domainh5{
+      text-align: center; 
+    }
     .course1{
       margin-top: 60px;
     }
@@ -466,6 +474,9 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
+    .abroadh5{
+      text-align: center;
+    }
     .abroadc{
       padding-bottom: 40px;
       background-color:  #E5E4E2;
@@ -530,6 +541,10 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
+    .assith5 {
+      text-align: center; 
+      color: white;
+    }
     .assistr{
       margin-top:50px;
     }
@@ -538,7 +553,7 @@ nav input{
       margin-top: 20px;
       color:#FFA500;
       font-weight: 700;
-      text-align: center;
+      text-align: left;
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
@@ -633,7 +648,7 @@ nav input{
       font-weight: 700;
       font-size: 30px;
       font-family: "AvertaStd-Regular",sans-serif;
-    
+      text-align:center;
     }
     .textbox{
       border-bottom: 2px solid whitesmoke;
