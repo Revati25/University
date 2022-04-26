@@ -1149,7 +1149,7 @@ animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }*/
 
 .serv2{
-  background-color: #00BFFF;
+  background-color: #00BFFF !important;
   height: 100%;
 }
 .serv1a{
@@ -1207,6 +1207,10 @@ animation: up-down 1s ease-in-out infinite alternate-reverse both;
   font-size: 50px;
   color: #151B54;
 }
+.number span{
+  color:#FFA500; 
+  font-weight: bold;
+}
 
 
 
@@ -1216,11 +1220,21 @@ animation: up-down 1s ease-in-out infinite alternate-reverse both;
   font-weight:bold;
   font-family: "AvertaStd-Regular";
 }
+
+.google{
+  text-align: center; width: 100%;
+}
+.googleh2{
+  text-align: center;
+}
 .googlep{
   font-size: 30px;
   font-weight: 700;
 }
- 
+ .google span{
+  font-size: 70px; 
+  font-weight: 700;
+ }
 .stari{
   list-style-type: none;
   display: inline;
@@ -1230,13 +1244,18 @@ animation: up-down 1s ease-in-out infinite alternate-reverse both;
   font-size: 60px;
   color: #FFA500;
 }
+.reviewp1{
+  text-align: center; width: 100%;
+}
 .reviewp1 p{
   font-size: 40px;
   color: #FFA500;
   font-weight: 700;
   font-family:"AvertaStd-Regular" ;
 }
-
+.fbr{
+  text-align: center;
+}
 
 /*****************************Services.html*************************/
 
