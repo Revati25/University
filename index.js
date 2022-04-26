@@ -13,10 +13,14 @@ jQuery('.First').mouseover(function() {
          this.classList.add("active");
      })
   });
+ 
 
 
 
-  (function ($, pluginName) {
+ 
+
+
+(function ($, pluginName) {
     var defaults = {
       htmlClass: true
     }
