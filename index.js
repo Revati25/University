@@ -283,7 +283,7 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 5,
     spaceBetween: 30,
     freeMode: true,
-    loop:true,
+    loop:false,
     navigation :{
     nextE1: '.swiper-button-next',
     prevE1: '.swiper-button-prev',
@@ -294,10 +294,10 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView:5,
     },
       768: {
-        slidesPerView:3,
+        slidesPerView:4,
       },
       280: {
-        slidesPerView:2,
+        slidesPerView:3,
       }
     },
    

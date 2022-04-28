@@ -64,9 +64,19 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="Courses.html">Courses</a></li>
              <li>
-                 <a href="#" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
+             <li>
+                 <a href="#" class="desktop-item active">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
                  <label for="showMega" class="mobile-item">Colleges <i class="fa fa-angle-down"></i></label>
                  <div class="mega-box">
@@ -158,7 +168,12 @@
 
 
 
-
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
+          <div class="col-6 pt-4">
        <div class="zeynep right">
          <ul>
            <li>
@@ -196,29 +211,27 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" class="active" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
+              
    
                <ul>
                  <li class="has-submenu">
-                   <a href="#" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" class="active" data-submenu="electronics"> Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
-   
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -305,6 +318,8 @@
            <li>
              <a href="News.html">News</a>
            </li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-download">&nbsp; Download</i></a></li>
 
          </ul>
        </div>
@@ -315,19 +330,18 @@
    
        <div class="zeynep-overlay"></div>
        </div>
+       </div>
+       </div>
+       </div>
     <!-----------------------------Navigation End-------------------------------------------->      
 
-  <div class="container-fluid menu mt-5">
-    <a href="index.html">Home</a> > <a href="#">USA Colleges</a>
+  <div class="container-fluid menu mt-lg-4 mt-5">
+    <a href="index.html">Home</a> > > <a href="#" class="activeA">USA Colleges</a>
 </div>
-  
-
-
-
-
-
-
-  <div class="container-fluid overview mt-5">
+  <div class="container-fluid mt-3 collh">
+    <h2>TOP COLLEGES IN USA BASED ON 2022 RANKING</h2>
+  </div>
+<div class="container-fluid mt-lg-5 mt-2 overview ">
    <div class="row">
     <div class="col-lg-2 col-sm-12">
         <div class="filters">
@@ -713,8 +727,8 @@
            </div>
            <div class="sec1b d-flex align-items-center justify-content-center">
            <ul>
-            <li style="background-color: #52D017;"><a>Talk to experts</a></li>
-            <li><a>Get more info</a></li>
+            <li class="sec1l"><a href="#">Talk to experts</a></li>
+            <li class="sec2l" ><a href="#">Get more info</a></li>
         </ul>
          </div>
          </div>

@@ -50,7 +50,17 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="Courses.html">Courses</a></li>
+             <li>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
              <li>
                  <a href="colleges.html" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
@@ -144,7 +154,12 @@
 
 
 
-
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
+          <div class="col-6 pt-4">
        <div class="zeynep right">
          <ul>
            <li>
@@ -182,29 +197,29 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
+             
    
                <ul>
                  <li class="has-submenu">
-                   <a href="colleges.html" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" data-submenu="electronics">Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
+                   
    
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -300,6 +315,9 @@
        </main>
    
        <div class="zeynep-overlay"></div>
+       </div>
+       </div>
+       </div>
        </div>
 
   <div class="container-fluid blogsw">

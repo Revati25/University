@@ -35,7 +35,7 @@
      <li><a href="Services.html">Services</a></li>
      <li><a href="News.html">News</a></li>
      <li><a href="blog.html">Blogs</a></li>
-     <li><a href="#">Top Courses</a></li>
+     <li><a href="#" class="active">Top Courses</a></li>
      <li><a href="#">Gallery</a></li>
      <li><a href="contact.html">Contact Us</a></li>
     
@@ -51,7 +51,17 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="Courses.html">Courses</a></li>
+             <li>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
              <li>
                  <a href="#" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
@@ -66,9 +76,7 @@
                          <li><a  class="First active"  target="1">COLLEGES</a></li>
                          <li><a class="First" target="2">MBA EXAMS</a></li>
                          <li><a class="First" target="3">MBA TYPE & STREAMS</a></li>
-                        <!---- <li><a href="#" class="First" target="4">RANKING 2022</a></li>
-                         <li><a href="#" class="First" target="5">COLLEGE PREDICTOR</a></li>
-                         <li><a href="#" class="First" target="6">CUT OFF</a></li>
+                        
                          <li><a href="#" class="First" target="7">NEWS & ALERTS </a></li>-->
                        </ul>
                    </div>
@@ -145,7 +153,12 @@
 
 
 
-
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
+          <div class="col-6 pt-4">
        <div class="zeynep right">
          <ul>
            <li>
@@ -183,29 +196,29 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
+            
    
                <ul>
                  <li class="has-submenu">
-                   <a href="colleges.html" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" data-submenu="electronics">Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
+                     
    
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -281,7 +294,7 @@
            </li>
 
            <li>
-             <a href="#">Top Courses</a>
+             <a href="#" class="active">Top Courses</a>
            </li>
            <li>
              <a href="Services.html">Services</a>
@@ -292,7 +305,8 @@
            <li>
              <a href="News.html">News</a>
            </li>
-
+           <li><a href="#" class="active mt-2"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-download">&nbsp; Download</i></a></li>
          </ul>
        </div>
    
@@ -302,24 +316,26 @@
    
        <div class="zeynep-overlay"></div>
        </div>
-
+         </div>
+         </div>
+         </div>
   
-  <div class="container-fluid menu mt-5">
-      <a href="index.html">Home</a>>> <a href="#">Top Courses</a>
+  <div class="container-fluid menu  mt-lg-4 mt-5">
+      <a href="index.html">Home</a>>> <a href="#" class="activeA">Top Courses</a>
 </div>
 <!--------------------------Top Courses------------------------------------>
 <div class="container-fluid courseimg p-0">
   <img src="images/exam.webp">
   <div class="row d-flex courserow align-items-center justify-content-center">
     <div class="col-lg-12 col-sm-12 courseh11 d-flex align-items-center justify-content-center">
-            <h2><span style="color: darkblue; font-weight: 800;">SEARCH FROM OVER 10000 COURSES IN INDIA</h2>
+            <h2>SEARCH FROM OVER 10000 COURSES IN INDIA</h2>
     </div>
-    <div class="col-lg-6 col-sm-12 mt-4 course11 d-flex align-items-center justify-content-center">
+    <div class="col-lg-6 col-sm-12 mt-2 course11 d-flex align-items-center justify-content-center">
         <div class="input-group mb-3 ">
             <div class="input-group-prepend">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-outline-secondary se" type="button" id="button-addon1"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
-            <input type="text" class="form-control inputt" style="height: 45px; font-size: 22px;" placeholder=" Search Entrance Exams" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            <input type="text" class="form-control inputt" placeholder=" Search Top Courses" aria-label="Example text with button addon" aria-describedby="button-addon1">
           </div>
           
     </div>
@@ -329,7 +345,7 @@
 </div>
 
 <div class="container-fluid topcourses mt-lg-5 p-5">
-  <h2 class="topcoursesh1" style="text-align: center; width: 100%;">DON't know what to choose?<br>
+  <h2 class="topcoursesh1" >DON't know what to choose?<br>
     choose by your level</h2>
     <div class="row row-cols-1 row-cols-md-2">
         <div class="col courses mb-4">
@@ -341,38 +357,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  
@@ -392,38 +408,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  
@@ -443,38 +459,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  
@@ -494,38 +510,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  
@@ -545,38 +561,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  
@@ -596,38 +612,38 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                    <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                    <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                    <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row  m-2 d-flex align-items-center justify-content-center">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-sm-12">
                     <div class="row d-flex align-items-center justify-content-center m-2">
-                      <div class="col-3 d-flex align-items-center justify-content-center pt-3" style="background-color:skyblue; font-size: 12px; font-weight:bold; text-align: center; border:1px solid black;"><p style="color: white;">18</p></div>
-                      <div class="col-9 d-flex align-items-center justify-content-center pt-3" style="font-size: 12px;  text-align: center; font-weight:bold;   border:1px solid black;"><p >COURSE NAME</p></div>
+                      <div class="col-3 d-flex align-items-center justify-content-center pt-3 co1"><p >18</p></div>
+                      <div class="col-9 d-flex align-items-center justify-content-center pt-3 co2"><p >COURSE NAME</p></div>
                     </div>
                   </div>
                  

@@ -51,7 +51,17 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="#">Courses</a></li>
+             <li>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
              <li>
                  <a href="colleges.html" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
@@ -66,10 +76,7 @@
                          <li><a  class="First active"  target="1">COLLEGES</a></li>
                          <li><a class="First" target="2">MBA EXAMS</a></li>
                          <li><a class="First" target="3">MBA TYPE & STREAMS</a></li>
-                        <!---- <li><a href="#" class="First" target="4">RANKING 2022</a></li>
-                         <li><a href="#" class="First" target="5">COLLEGE PREDICTOR</a></li>
-                         <li><a href="#" class="First" target="6">CUT OFF</a></li>
-                         <li><a href="#" class="First" target="7">NEWS & ALERTS </a></li>-->
+                        
                        </ul>
                    </div>
                    </div>
@@ -144,7 +151,12 @@
 
 
 
-
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
+          <div class="col-6 pt-4">
 
        <div class="zeynep right">
          <ul>
@@ -153,7 +165,7 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="stores">Courses<i class="fa fa-angle-double-right"></i></a>
+             <a href="#" class="active" data-submenu="stores">Courses<i class="fa fa-angle-double-right"></i></a>
    
              <div id="stores" class="submenu">
                <div class="submenu-header">
@@ -183,29 +195,29 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
+             
    
                <ul>
                  <li class="has-submenu">
-                   <a href="#" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" data-submenu="electronics"> Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
+                
    
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -292,7 +304,8 @@
            <li>
              <a href="News.html">News</a>
            </li>
-
+           <li><a href="#" class="active mt-2"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-download">&nbsp; Download</i></a></li>
          </ul>
        </div>
    
@@ -302,10 +315,12 @@
    
        <div class="zeynep-overlay"></div>
        </div>
-
+        </div>
+        </div>
+        </div>
   
   <div class="container-fluid menu mt-5">
-      <a href="index.html">Home</a> > <a href="#">IIT</a>
+      <a href="index.html">Home</a> > > <a href="#" class="activeA">IIT</a>
 </div>
 
   <div class="container-fluid tops mt-2 p-3">
@@ -316,9 +331,9 @@
         </div>
         <div class="iit pl-3">
          <h5>ITM Business School, Navi Mumbai</h5>
-         <p ><i class="fa fa-map-marker"> Delhi, Delhi NCR</i><br>
-         <i class="fa fa-thumb-tack">Estd 1961,</i><br>
-         <i class="fa fa-university">Autonomous University</i></p>
+         <p><i class="fa fa-map-marker">&nbsp; <span>Delhi, Delhi NCR</span></i></p>
+         <p><i class="fa fa-thumb-tack">&nbsp; <span>Estd 1961,</span></i></p>
+         <p><i class="fa fa-university">&nbsp; <span>Autonomous University</span></i></p>
         </div>
       </div>
       <div class="col-lg-4 col-sm-12 p-md-5 rating1 ">
@@ -327,8 +342,7 @@
           <p>3.5<i class="fa fa-star"></i></p>
          </div>
          <div class="col-6  views">
-          <!--<p>1450 </p>
-          <span class="aa" style="font-size: 10px;">Reviews</span>-->
+          
           <ul>
             <li class="a1">1450</li>
             <li class="a2">Reviews</li>
@@ -337,28 +351,15 @@
          </div>
          </div>
          <div class="brochure mt-md-4 d-flex align-items-center justify-content-center">
-           <a href="">Apply Now</a>
-           <a href="">Get Brochure</a>
+           <a href="#">Apply Now</a>
+           <a href="#">Get Brochure</a>
          </div>
       </div>
     </div>
   </div>
 
    <div class="container-fluid mt-5 navss">
-       <!--<div class="row">
-           <div class="col-md-1 col-sm-12  navs d-flex align-items-center justify-content-center ml-5 actives">Overview</div>
-           <div class="col-md-1 col-sm-12 mt-2  ml-4 navs d-flex align-items-center justify-content-center">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center ">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center  ">Courses</div>
-           <div class="col-md-1 col-sm-12 mt-2 ml-4 navs d-flex align-items-center justify-content-center ">Courses</div>
-           
-          
-          
-       </div>-->
-       <!-- Slider main container -->
+      
 <div class="swiper overview">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
@@ -373,8 +374,7 @@
     <div class="swiper-slide navs d-flex align-items-center justify-content-center">Courses</div>
     
   </div>
-  <!--<div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>-->
+  
    </div>
 </div>
 
@@ -400,95 +400,93 @@
         </div>
         <div class="content2 mt-4">
        <div class="row">
-             <!--<div class="col-lg-8 col-sm-12">
-               <img src="images/glance.png" class="img-fluid">
-           </div>-->
-          <div class="col-lg-10 tables m-2 p-3" style="flex: 0 0 98%;max-width: 100%;">
+          
+          <div class="col-lg-10 tables m-lg-2 p-lg-3">
             <h6 class="tableh6">ITM Business School - Quick Overview 2022</h6>
             <p class="tablep">The candidates should find out the main highlights before choosing to at ITM Business School:
             </p>
             <table class="table table-striped">
               <tr>
-                <th style="border: 1px solid #C0C0C0;">Foundation year</th>
+                <th>Foundation year</th>
                 <td>1991</td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Location</th>
+                <th>Location</th>
                 <td>Navi Mumbai </td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">University Status</th>
+                <th>University Status</th>
                 <td>Private College</td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Campus size</th>
+                <th>Campus size</th>
                 <td>3 acre</td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Campus</th>
+                <th>Campus</th>
                 <td>5 Campuses & Seasoned Faculties</td>>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Scholarships</th>
+                <th>Scholarships</th>
                 <td>2</td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Alumni</th>
+                <th>Alumni</th>
                 <td>45000+</td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Exams</th>
+                <th>Exams</th>
                 <td>CAT, XAT, CMAT, GMAT, MAT, ATMA, State CET tests & NMAT exam
                 </td>
                </tr>
                <tr>
-                <th style="border: 1px solid #C0C0C0;">Course Offered</th>
+                <th>Course Offered</th>
                 <td>PGDM
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Duration of Course</th>
+                <th>Duration of Course</th>
                 <td>2 Years
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Salary</th>
+                <th>Salary</th>
                 <td>Highest Salary - 21 LPA </br>
 					Average Salary - 8.5 LPA
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Company visits</th>
+                <th>Company visits</th>
                 <td>650+
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Mode of Application</th>
+                <th>Mode of Application</th>
                 <td>Online
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Application Fees</th>
+                <th>Application Fees</th>
                 <td>1500 Rs
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Faculty</th>
+                <th>Faculty</th>
                 <td>82
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Students</th>
+                <th>Students</th>
                 <td>15,000+
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Recognition</th>
+                <th>Recognition</th>
                 <td>AICTE, NBA and AIU
                 </td>
                </tr>
 			   <tr>
-                <th style="border: 1px solid #C0C0C0;">Top Recruiters</th>
+                <th>Top Recruiters</th>
                 <td>Wipro, Samsung, Accenture, Reliance Retail, TCS & Many More.
                 </td>
                </tr>
@@ -511,15 +509,16 @@
                 <li>At ITM, multiple ways to achieve a world-class education and an exciting career.</li>
               </ol>
             </div> </br>
+            <div class="container responsivet">
             <h6 class="tableh6">ITM Business School Course information</h6>
             <p class="tablep">Students must acquire detailed knowledge about the PGDM program offered at the ITM Business School:
                   </p>
-                  <table class="table table-striped; border: 1px solid;">
+                  <table class="table table-striped">
                   <tr>
-                      <th style="border: 1px solid #C0C0C0;">Program</th>
-                      <th style="border: 1px solid #C0C0C0;">Duration</th>
-                      <th style="border: 1px solid #C0C0C0;">Fees</th>
-                      <th style="border: 1px solid #C0C0C0;">Eligibility</th>
+                      <th>Program</th>
+                      <th>Duration</th>
+                      <th>Fees</th>
+                      <th>Eligibility</th>
                   </tr>
                   <tr>
                       <td><b>PG Diploma</b></td>
@@ -528,6 +527,7 @@
                       <td>Graduation with 50% from an AIU recognised University & qualifying marks in an MBA Entrance Exam</td>
                   </tr>
                   </table>
+                  </div>
                   </br>
                   <h6 class="tableh6">How to Take Admission in ITM Business School for PGDM?</h6>
                   <p class="tablep">The admissions process is quick and straightforward to help guide you through the process:
@@ -620,47 +620,47 @@
                   <p class="tablep">ITM Business School has great rankings according to various organizations:</p>
                    <table class="table table-striped">
                     <tr>
-                      <th style="border: 1px solid #C0C0C0;">Ranking Body</th>
-                      <th style="border: 1px solid #C0C0C0;">Ranking</th>
+                      <th>Ranking Body</th>
+                      <th>Ranking</th>
                     </tr>
                     <tr>
-                      <th style="border: 1px solid #C0C0C0;">Outlook - ICARE 2021 for MBA (the Best Private B-Schools in West Zone)</th>
+                      <th>Outlook - ICARE 2021 for MBA (the Best Private B-Schools in West Zone)</th>
                       <td>10</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Outlook - ICARE 2021 for MBA course (the Private Standalone B-School in India)</th>
+                      <th>Outlook - ICARE 2021 for MBA course (the Private Standalone B-School in India)</th>
                       <td>14</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Times annual B-school survey 2021 </th>
+                      <th>Times annual B-school survey 2021 </th>
                       <td>14</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Times annual B-school survey 2021 (Top 75 private B-school)</th>
+                      <th>Times annual B-school survey 2021 (Top 75 private B-school)</th>
                       <td>19</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Cfore - EW B-School Survey 2021</th>
+                      <th>Cfore - EW B-School Survey 2021</th>
                       <td>25</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Times annual B-school survey 2021 (Top 100 B-School)</th>
+                      <th>Times annual B-school survey 2021 (Top 100 B-School)</th>
                       <td>28</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Outlook - ICARE 2021 for MBA (Top B-Schools in India)</th>
+                      <th>Outlook - ICARE 2021 for MBA (Top B-Schools in India)</th>
                       <td>32</td>
                      </tr>
                      <tr>
-                      <th style="border: 1px solid #C0C0C0;">Times B-School Survey 2020 (Private B-School)</th>
+                      <th>Times B-School Survey 2020 (Private B-School)</th>
                       <td>6</td>
                      </tr>
                <tr>
-                      <th style="border: 1px solid #C0C0C0;">By Business today 2020</th>
+                      <th>By Business today 2020</th>
                       <td>8</td>
                      </tr>
                <tr>
-                      <th style="border: 1px solid #C0C0C0;">GHRDC- CSR B-School Survey 2020 (Top Eminent B-Schools of Super Excellence)</th>
+                      <th>GHRDC- CSR B-School Survey 2020 (Top Eminent B-Schools of Super Excellence)</th>
                       <td>10</td>
                      </tr>
                   </table>
@@ -671,7 +671,7 @@
                   <p class="tablep">ITM Business School is having a wide range of collaborations & partnerships provided for the students coming to learn PGDM in Mumbai:</p>
                    <table class="table table-striped">
                     <tr>
-                      <th style="text-align:center" colspan="3">ITM Business School Navi Mumbai Collaborations</th>
+                      <th  class="thcol" colspan="3">ITM Business School Navi Mumbai Collaborations</th>
                     </tr>
                     <tr>
               
@@ -703,8 +703,8 @@
            </div>
            <div class="sec1b d-flex align-items-center justify-content-center">
            <ul>
-            <li style="background-color: #52D017;"><a>Talk to experts</a></li>
-            <li><a>Get more info</a></li>
+            <li class="sec1l"><a href="#">Talk to experts</a></li>
+            <li class="sec2l"><a href="#">Get more info</a></li>
         </ul>
          </div>
          </div>
@@ -727,7 +727,7 @@
                   <p><i class="fa fa-map-marker"> Ahemdabad</i></p>
               </div>
               <div class="col-5 d-flex align-items-center justify-content-center">
-                  <button class="p-1 apply">Apply Now</button>
+                  <button class="p-1 apply1">Apply Now</button>
               </div>
              
               <div class="col-7">
@@ -735,21 +735,21 @@
                 <p><i class="fa fa-map-marker"> Ahemdabad</i></p>
             </div>
             <div class="col-5 d-flex align-items-center justify-content-center">
-                <button class="p-1 apply">Apply Now</button>
+                <button class="p-1 apply1">Apply Now</button>
             </div>
             <div class="col-7">
                 <p>Shanti Business School</p>
                 <p><i class="fa fa-map-marker"> Ahemdabad</i></p>
             </div>
             <div class="col-5 d-flex align-items-center justify-content-center">
-                <button class="p-1 apply">Apply Now</button>
+                <button class="p-1 apply1">Apply Now</button>
             </div>
             <div class="col-7">
                 <p>Shanti Business School</p>
                 <p><i class="fa fa-map-marker"> Ahemdabad</i></p>
             </div>
             <div class="col-5 d-flex align-items-center justify-content-center">
-                <button class="p-1 apply">Apply Now</button>
+                <button class="p-1 apply1">Apply Now</button>
             </div>
          </div>
              

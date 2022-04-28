@@ -30,7 +30,7 @@
   <div class="container-fluid navigation">
     <ul class="nav1">
       <li><a href="index.html">Home</a></li>
-     <li><a href="#">About Us</a></li>
+     <li><a href="#" class="active">About Us</a></li>
      <li><a href="Services.html">Services</a></li>
      <li><a href="News.html">News</a></li>
      <li><a href="blog.html">Blogs</a></li>
@@ -50,7 +50,17 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="Courses.html">Courses</a></li>
+             <li>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
              <li>
                  <a href="colleges.html" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
@@ -139,9 +149,13 @@
        </nav>
 
 
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
 
-
-
+          <div class="col-6 pt-4">
        <div class="zeynep right">
          <ul>
            <li>
@@ -179,29 +193,27 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
-   
                <ul>
                  <li class="has-submenu">
-                   <a href="colleges.html" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" data-submenu="electronics"> Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
+                     
    
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -273,7 +285,7 @@
              <a href="Exams.html">Exams</a>
            </li>
            <li>
-             <a href="About Us.html">About Us</a>
+             <a href="#" class="active">About Us</a>
            </li>
 
            <li>
@@ -288,6 +300,8 @@
            <li>
              <a href="News.html">News</a>
            </li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-download">&nbsp; Download</i></a></li>
 
          </ul>
        </div>
@@ -298,12 +312,15 @@
    
        <div class="zeynep-overlay"></div>
        </div>
-<div class="container-fluid menu mt-5">
-    <a href="index.html">Home</a> >> <a href="#">About</a>
+       </div>
+       </div>
+       </div>
+<div class="container-fluid menu mt-lg-4 mt-5">
+    <a href="index.html">Home</a> >> <a href="#" class="activeA">About</a>
 </div>
 
 <!----------------------------------About--------------------------------------------->
-<section id="header3" class="d-flex  align-items-center mt-4">
+<section id="header3" class="d-flex  align-items-center">
     <div class="container-fluid nav_bg">
         <h1 class="abouth">
             About Company
@@ -379,14 +396,14 @@
 <div class="container mt-5 servs">
     <h1>Services</h1>
     <div class="row">
-        <div class="col-lg-4  col-md-6 col-sm-6 mt-4  serv1">
+        <div class="col-lg-4  col-6 mt-4  serv1">
             <div class="card  serv2 d-flex align-items-center justify-content-center">
                 <div class="bottom d-flex align-items-center justify-content-center">
                   <i class="fa fa-commenting iconss" aria-hidden="true"></i>
                 </div>
 
                 <div class="card-body serv1a">
-                  <p class="card-text  p-3  texts">We make you aware
+                  <p class="card-text  p-lg-3 p-0 texts">We make you aware
                     about the rules and
                     regulations of any
                     foreign institute and we
@@ -395,7 +412,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 mt-4 serv1">
+        <div class="col-lg-4 col-6 mt-4 serv1">
             <div class="card serv2 d-flex align-items-center justify-content-center">
                 <div class="bottom d-flex align-items-center justify-content-center">
                   <i class="fa fa-american-sign-language-interpreting iconss" aria-hidden="true"></i>
@@ -403,7 +420,7 @@
 
                 <div class="card-body  serv1a">
                  
-                  <p class="card-text  p-3   texts">According to student’s
+                  <p class="card-text  p-lg-3  p-0 texts">According to student’s
                     needs,
                     ‘Select Your
                     University’ will provide
@@ -413,7 +430,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-lg-4 col-md-6   col-sm-6 mt-4 serv1">
+        <div class="col-lg-4 col-6 mt-4 serv1">
             <div class="card serv2 d-flex align-items-center justify-content-center">
                 <div class="bottom d-flex align-items-center justify-content-center">
                   <i class="fa fa-university iconss" aria-hidden="true"></i>
@@ -421,14 +438,14 @@
 
                 <div class="card-body  serv1a">
                   
-                  <p class="card-text  p-3  texts">We provide best medical
+                  <p class="card-text  p-lg-3 p-0  texts">We provide best medical
                     universities with high
                     quality education and
                     very low fess structure.</p>
                 </div>
               </div>
         </div>
-        <div class="col-lg-4 col-md-6  col-sm-6 mt-4  serv1">
+        <div class="col-lg-4 col-6 mt-4  serv1">
             <div class="card serv2 d-flex align-items-center justify-content-center">
                 <div class="bottom d-flex align-items-center justify-content-center">
                 <i class="fa fa-user iconss"></i>
@@ -436,13 +453,13 @@
 
                 <div class="card-body  serv1a">
                
-                  <p class="card-text  p-3  texts">‘Select Your University’
+                  <p class="card-text  p-lg-3 p-0 texts">‘Select Your University’
                     team also helps you with
                     the accommodation</p>
                 </div>
               </div>
         </div>
-        <div class="col-lg-4 col-md-6  col-sm-6 mt-4 serv1">
+        <div class="col-lg-4 col-6 mt-4 serv1">
             <div class="card serv2 d-flex align-items-center justify-content-center" >
                 <div class="bottom d-flex align-items-center justify-content-center">
                   <i class="fa fa-folder-open iconss" aria-hidden="true"></i>
@@ -450,13 +467,13 @@
 
                 <div class="card-body  serv1a">
                  
-                  <p class="card-text  p-3   texts">‘Select Your University’
+                  <p class="card-text  p-lg-3  p-0 texts">‘Select Your University’
                     team also helps you with
                     the accommodation</p>
                 </div>
               </div>
         </div>
-        <div class="col-lg-4  col-md-6 col-sm-6 mt-4 serv1">
+        <div class="col-lg-4  col-6 mt-4 serv1">
             <div class="card serv2 d-flex align-items-center justify-content-center">
                 <div class="bottom d-flex align-items-center justify-content-center">
                 <i class="fa fa-user iconss"></i>
@@ -464,7 +481,7 @@
 
                 <div class="card-body  serv1a">
                 
-                  <p class="card-text p-3 texts">We make all the
+                  <p class="card-text p-lg-3 p-0 texts">We make all the
                     arrangements for our
                     students from the
                     departure till they reach
@@ -523,7 +540,7 @@
 <!---------------------------------Google Review------------------------------------------------->
 <div class="container-fluid pt-5 googlere">
   <div class="row">
-    <div class="col-lg-4 go1 pt-5 order-lg-1 order-sm-2">
+    <div class="col-lg-4 col-6 go1 pt-5 order-lg-1 order-2">
       <h2 class="googleh2">GOOGLE REVIEWS</h2>
       <div class="google">
         <p class="googlep" ><span>4.5</span>/5</p>
@@ -540,7 +557,7 @@
         <p>1500+ Reviews</p>
       </div>
     </div>
-    <div class="col-lg-4 go1 pt-5 order-lg-2 order-sm-3">
+    <div class="col-lg-4 col-6 go1 pt-5 order-lg-2 order-3 ">
       <h2 class="fbr">FACEBOOK REVIEWS</h2>
       <div class="google">
         <p class="googlep"><span>4.5</span>/5</p>
@@ -557,7 +574,7 @@
         <p>1500+ Reviews</p>
       </div>
     </div>
-    <div class="col-lg-4 order-lg-3 order-sm-1 d-flex align-items-center justify-content-center">
+    <div class="col-lg-4 col-12 order-lg-3 order-1 d-flex align-items-center justify-content-center immm">
       <img src="images/ratings.png" class="img-fluid" alt="" >
     </div>
   </div>

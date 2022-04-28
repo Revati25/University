@@ -16,6 +16,9 @@
     nav .wrapper{
         display: none;
     }
+    .zey .logo{
+        display:block;
+      }
     .zeynep{
         display: block;
       }
@@ -351,7 +354,7 @@ body {
   hr{
       display: none;
   }
-/*************************About.html*************************/
+/*************************courses.html*************************/
 .tech img{
     width: 150px;
     height: 100px;
@@ -374,11 +377,26 @@ body {
 .a2{
     font-size: 14px;
 }
-.brochure{
-    margin-top: 10px;
+
+.brochure a{
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+.responsivet{
+  
+    overflow-x:auto ;
 }
 
 
+.responsivet td, th {
+    font-size: 12px;
+}
+
+.navs{
+    border-radius: 10px;
+    font-size: 13px;
+}
 /****************blog.html*******************/
 .bloghs h1{
     font-size: 35px;
@@ -386,7 +404,24 @@ body {
 .blogsw{
     margin-top: 60px;
 }
+
+.blogsh6{
+  
+    font-size: 35px;
+  
+   }
+ /******************************About us .html***********************/
+ .texts{
+     font-size: 12px;
+ }  
+
+
+ /*****************colleges.html**************************/
+ .iem{
+     top: 50%;
+    left: 40%;
     
+}
 }
 
 @media (max-width:580px){
@@ -468,9 +503,9 @@ body {
   .in{
       display: none;
   }
-  .apply{
+  /*.apply{
       display: none;
-  }
+  }*/
 
   .trending1{
       padding: 0px;
@@ -617,13 +652,6 @@ body {
       margin-top: 30px;
   }
   
-  
-  /*.caption{
-      font-size: 22px;
-  }*/
-  /*.para{
-      font-size: 15px;
-  }*/
 
 /*-------------------app---------------*/
     .app{
@@ -655,19 +683,7 @@ body {
   }
 
   /*----------------footer-------*/
-  /*.footer1{
-      padding: 40px;
-  }*/
-  /*.footer{
-      margin-top: 30px;
-  }
- .footer1{
-     padding: 0 50px;
- }
-  .f1 ul{
-      padding-left: 20px;
-      
-  }*/
+  
   .footer{
       margin-top: 20px;
   }
@@ -701,8 +717,25 @@ body {
      overflow: visible;
      overflow-y: hidden;
  }
+
+ .filtersm h4{
+   font-size: 23px;
+    color: #FFA500 !important;
+    font-weight: 800 !important;
+    font-family: "Averta-Semibold" !important;
+ }
   .filtersul li{
     display: inline;
+}
+
+.collh h2{
+    font-size: 20px;
+    text-align: center;
+}
+.iem{
+    top: 30%;
+   left: 38%;
+   
 }
 
 /***************************About Us.html***************************/
@@ -710,18 +743,51 @@ body {
     font-size:25px;
 
 }
-.numh3, .numh6, .go1 h2, .reviewp1 p, .speaks h3{
+.numh3, .numh6, .go1 h2,  .speaks h3{
     font-size: 20px;
 }
 
 
-.stari i {
+
+.visionp{
+    font-size: 12px;
+}
+.serv1{
+    height: auto;
+}
+.texts{
+    font-size: 12px;
+    text-align: left;
+}
+.bottom{
+    height: 80px;
+  width: 150px;
+  border-bottom-left-radius:180px;
+  border-bottom-right-radius:180px;
+}
+.bottom i{
     font-size: 30px;
 }
-.visionp, .texts{
-    font-size: 16px;
-}
+.googlep{
+    font-size: 20px;
 
+  }
+   .google span{
+    font-size: 40px; 
+   
+   }
+   .stari i{
+    font-size: 25px;
+   
+  }
+
+  .reviewp1 p{
+    font-size: 16px;  
+}
+.immm img{
+  
+    height: 300px;
+}
 
 /************************Blog.html**************************/
 .blogsw{
@@ -806,14 +872,17 @@ form{
 }
 .courserow{
     position:absolute;
-    top: 30%;
+    top: 33%;
     left: 0%;
-    padding: 15px;
+    padding: 25px;
    }
+   
    .courseh11 h2{
     font-family: "Averta-Semibold";
-    font-size: 20px;
-    padding-left: 16px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+ 
 
    }
    .topcoursesh1{

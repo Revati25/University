@@ -39,6 +39,12 @@
   background: #151B54;
   color: #FFA500;
  }
+ .nav1 .active{
+ background: #151B54;
+ color: #FFA500; 
+ margin-right: 10px;
+ margin-left: 5px;
+ }
  .top{
     width: 100%;
     height:690px;
@@ -55,6 +61,9 @@ nav{
   width: 100%;
   padding-top: 20px;
  
+}
+.zey .logo{
+  display: none;
 }
 .zeynep{
   display: none;
@@ -351,10 +360,11 @@ nav input{
   
   
     /*----------------------header3--------------------------*/
-    #header3{
+    /*#header3{
        
         margin-top:80px;
-    }
+    }*/
+   
   
     .abouth{
       font-weight: 700;
@@ -363,7 +373,11 @@ nav input{
     
     }
    
-     
+     .abouth5{
+       font-weight: 700;
+    
+       font-family: "AvertaStd-Regular",sans-serif;
+     }
     .p1{
       color:black;
       line-height: 26px;
@@ -396,6 +410,9 @@ nav input{
 
     .domainh5{
       text-align: center; 
+      font-size: 20px;
+      font-weight: 700;
+      font-family:  "AvertaStd-Regular",sans-serif;
     }
     .course1{
       margin-top: 60px;
@@ -476,6 +493,8 @@ nav input{
     }
     .abroadh5{
       text-align: center;
+      font-weight: 700;
+      font-family: "AvertaStd-Regular",sans-serif;
     }
     .abroadc{
       padding-bottom: 40px;
@@ -541,9 +560,11 @@ nav input{
       font-family: "AvertaStd-Regular",sans-serif;
     
     }
-    .assith5 {
+    .assisth5 {
       text-align: center; 
       color: white;
+      font-weight: 700;
+      font-family: "AvertaStd-Regular",sans-serif;
     }
     .assistr{
       margin-top:50px;
@@ -809,7 +830,7 @@ nav input{
   }
 
 
-  /*************************About.html*************************/
+  /*************************courses.html*************************/
  
   .menu{
     background-color: #DCDCDC;
@@ -819,6 +840,9 @@ nav input{
     color: black;
     font-size: 14px;
     font-weight: 700;
+  }
+  .menu .activeA{
+    color: #FFA500;
   }
 
 .tops{
@@ -840,8 +864,14 @@ nav input{
 .iit p{
   color: white;
   font-weight: 700;
+  line-height: 10px;
 }
-
+.iit i{
+  margin-right: 10px !important;
+}
+.iit span{
+  margin-left: 10px;
+}
 /*.rating2{
   /*width: 400px;
   height: 140px;
@@ -914,8 +944,14 @@ nav input{
 
   .tables{
     background-color: white;
+    flex: 0 0 98% !important;
+    max-width: 100% !important;
   }
+  
   .table, tr, td{
+    border: 1px solid #C0C0C0;
+  }
+  .table th{
     border: 1px solid #C0C0C0;
   }
   .tableh6{
@@ -927,6 +963,10 @@ nav input{
     color: black;
     font-weight: 600;
   }
+  .thcol{
+    text-align: center;
+  }
+  
 
 .sidebar1{
   background-color:#DCDCDC;
@@ -950,16 +990,27 @@ nav input{
 }
 .sec1b ul li{
  display: inline;
- border:2ps solid black;
- background-color:#00CED1;
- border-radius: 10px;
- padding: 5px;
+
+ text-align: center;
+ border-radius: 20px;
+border: 1px solid black;
+ padding-top: 5px;
+ padding: 5px 5px 8px 5px;
  color: white;
 }
 .sec1b ul li a{
   font-size: 12px;
   font-weight: 600;
   color: white;
+ 
+}
+.sec1l{
+  background-color: #52D017;
+  
+}
+.sec2l{
+  background-color:#00CED1;
+ 
 }
 .sec2{
 
@@ -978,7 +1029,7 @@ nav input{
   padding: 10px;
 }
 
-.apply{
+.apply1{
   border-color: red;
   color: red;
 }
@@ -1001,6 +1052,19 @@ padding: 15px;
 }
 
 /*----------------------Blog.html----------------------*/
+
+.blogb a{
+  color: white;
+}
+.blogb a:hover{
+  color: white;
+}
+.bim{
+  object-fit: cover;
+}
+
+
+/*-------------------------Blogs.html-----------------------*/
 .blogsw{
   height: 450px;
   width: 100%;
@@ -1032,6 +1096,14 @@ padding: 15px;
   background-position: center;
   background-size: cover;
   object-fit: cover;
+}
+
+.blogsh6{
+ text-align: center;
+ font-size: 60px;
+ font-family: "Averta-Semibold";
+ font-weight: 800;
+ color: #151B54;
 }
 .cb {
   border-bottom:1px solid #C0C0C0 ;
@@ -1345,6 +1417,13 @@ padding: 20px;
   line-height: 23px;
 
 }
+
+.forml{
+  color: #00BFFF; font-size: 17px; font-weight: bold; 
+}
+
+
+
 iframe{
   width: 100%;
   height: 350px;
@@ -1397,12 +1476,14 @@ iframe{
 }
 .courserow{
   position:absolute;
-  top: 50%;
+  top: 45%;
   left: 17%;
  }
  .courseh11 h2{
   font-family: "Averta-Semibold";
+  color: darkblue; font-weight: 800;
  }
+ 
 .topcoursesh1{
   font-weight: 800;
   font-family: "Averta-Semibold";
@@ -1430,12 +1511,34 @@ border: 2px solid #00BFFF;
   font-weight: 800;
   font-family: "Averta-Semibold";
 }
+.inputt{
+  height: 45px !important; 
+  font-size: 22px !important;
+}
+.topcoursesh1{
+  text-align: center !important; 
+  width: 100% !important;
+}
 
-
-/*****************************Entrance*************************/
+.co1{
+  background-color:skyblue; 
+  font-size: 12px; font-weight:bold; 
+  text-align: center;
+   border:1px solid black;
+}
+.co1 p{
+  color: white;
+}
+.co2{
+  font-size: 12px;  
+  text-align: center;
+   font-weight:bold; 
+     border:1px solid black;
+}
+/*****************************Exam.html*************************/
 .entrance{
   height: 400px;
-  background-image:url("images/exam.webp");
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/exam.webp");
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: cover;
@@ -1447,15 +1550,28 @@ border: 2px solid #00BFFF;
   margin-top: 120px;
   font-family: "Averta-Semibold";
   font-size: 45px;
+  color: whitesmoke;
+  font-weight: 800;
 }
-.btn i{
+
+.se{
+  background-color: #FFA500 !important;
+  border: 2px solid black !important;
+}
+ .se i{
+   font-size: 25px;
+   color: black !important;
+ }
+/*.btn i{
   font-size: 25px;
   color: black;
-}
+}*/
 .inputt{
   font-family: "Averta-Semibold";
 }
-
+.explorec{
+  border: 2px solid #151B54 !important;
+}
 .exploreh1{
   font-weight: 800;
   color: #151B54;
@@ -1494,18 +1610,54 @@ border: 2px solid #00BFFF;
   font-size: 15px;
   font-family: "Averta-Semibold";
   font-weight: 800;
+  border-bottom: 2px solid gray;
+}
+.newsc{
+  border:3px solid skyblue !important;
+}
+.newb1{
+  float: left; 
+  padding: 5px;
+   border:1px solid skyblue;
 }
 
+.newb2{
+  float: right; 
+  padding: 5px; 
+  border:1px solid black; 
+  background-color: skyblue;
+}
+.newb2 a{
+  color: black;
+}
 
+.newp1{
+  float: right;
+   padding: 5px;
+}
 
 /*************************Colleges.html***************************/
+.collh h2{
+  font-weight: 800;
+  font-family: "Averta-Semibold";
+  color: #151B54;
+  
+}
 .filtersm{
   display: none;
 }
+.filters h6{
+ 
+  color: #FFA500 !important;
+  font-weight: 800 !important;
+  font-family: "Averta-Semibold" !important;
+}
 
 .iem{
+  background-color:white;
+  padding: 6px;
   position: absolute;
-  top: 24%;
+  top: 22%;
   left: 37%;
 }
 .iecc:hover{

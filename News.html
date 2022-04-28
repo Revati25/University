@@ -32,7 +32,7 @@
       <li><a href="index.html">Home</a></li>
      <li><a href="About Us.html">About Us</a></li>
      <li><a href="Services.html">Services</a></li>
-     <li><a href="#">News</a></li>
+     <li><a href="#" class="active">News</a></li>
      <li><a href="blog.html">Blogs</a></li>
      <li><a href="Top Courses.html">Top Courses</a></li>
      <li><a href="#">Gallery</a></li>
@@ -50,7 +50,17 @@
            <input type="radio" name="slider" id="close-btn">
            <ul class="nav-links">
              <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-             <li><a href="Courses.html">Courses</a></li>
+             <li>
+              <a href="Courses.html" class="desktop-item">Courses <i class=" fa fa-angle-down"></i></a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Courses <i class=" fa fa-angle-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="#">BTECH</a></li>
+                <li><a href="#">LAW</a></li>
+                <li><a href="#">MEDICAL</a></li>
+                <li><a href="#">FINANCE</a></li>
+              </ul>
+            </li>
              <li>
                  <a href="colleges.html" class="desktop-item">Colleges <i class=" fa fa-angle-down"></i></a>
                  <input type="checkbox" id="showMega">
@@ -65,9 +75,7 @@
                          <li><a  class="First active"  target="1">COLLEGES</a></li>
                          <li><a class="First" target="2">MBA EXAMS</a></li>
                          <li><a class="First" target="3">MBA TYPE & STREAMS</a></li>
-                        <!---- <li><a href="#" class="First" target="4">RANKING 2022</a></li>
-                         <li><a href="#" class="First" target="5">COLLEGE PREDICTOR</a></li>
-                         <li><a href="#" class="First" target="6">CUT OFF</a></li>
+                       
                          <li><a href="#" class="First" target="7">NEWS & ALERTS </a></li>-->
                        </ul>
                    </div>
@@ -143,7 +151,12 @@
 
 
 
-
+       <div class="container-fluid zey">
+        <div class="row">
+          <div class="col-6">
+           <div class="logo"><a href="index.html"><img src="images/logo.png" width="90px" height="90px"></a></div>
+          </div>
+          <div class="col-6 pt-4">
 
        <div class="zeynep right">
          <ul>
@@ -182,29 +195,29 @@
            </li>
    
            <li class="has-submenu">
-             <a href="#" data-submenu="categories">Popular Links &nbsp;<i class="fa fa-angle-double-right"></i></a>
+             <a href="colleges.html" data-submenu="categories">Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
              <div id="categories" class="submenu">
                <div class="submenu-header">
                  <a href="#" data-submenu-close="categories">Main Menu</a>
                </div>
    
-               <label>Popular Links</label>
+               
    
                <ul>
                  <li class="has-submenu">
-                   <a href="colleges.html" data-submenu="electronics"> Colleges &nbsp;<i class="fa fa-angle-double-right"></i></a>
+                   <a href="colleges.html" data-submenu="electronics"> Top Universities &nbsp;<i class="fa fa-angle-double-right"></i></a>
    
                    <div id="electronics" class="submenu">
                      <div class="submenu-header">
                        <a href="#" data-submenu-close="electronics">Categories</a>
                      </div>
    
-                     <label>TOP UNIVERSITIES</label>
+                    
    
                      <ul>
                        <li>
-                         <a href="#">USA</a>
+                         <a href="colleges.html">USA</a>
                        </li>
    
                        <li>
@@ -289,9 +302,10 @@
              <a href="blog.html">Blog</a>
            </li>
            <li>
-             <a href="#">News</a>
+             <a href="#" class="active">News</a>
            </li>
-
+           <li><a href="#" class="active mt-2"><i class="fa fa-sign-in">&nbsp;Login</i></a></li>
+           <li><a href="#" class="active mt-2"><i class="fa fa-download">&nbsp; Download</i></a></li>
          </ul>
        </div>
    
@@ -301,19 +315,23 @@
    
        <div class="zeynep-overlay"></div>
        </div>
+     </div>
+     </div>
+     </div>
 
-  <div class="container-fluid menu mt-5">
-    <a href="index.html">Home</a>>> <a href="#">News</a>
+
+  <div class="container-fluid menu mt-lg-4 mt-5">
+    <a href="index.html">Home</a>>> <a href="#" class="activeA">News</a>
 </div>
 <!-----------------------------News------------------------------------------------->
-  <div class="container-fluid mt-5 news">
+  <div class="container-fluid mt-4 news">
 
     <h6 class="newsh6">Admission, Exam, College, & Result News.</h6>
-    <p class="newsp" style="border-bottom: 2px solid gray;">All News Admission News College News Exam News</p>
+    <p class="newsp">All News Admission News College News Exam News</p>
     
      <div class="row">
          <div class="col-lg-6 col-sm-12 p-3">
-             <div class="card p-2" style="border:3px solid skyblue;">
+             <div class="card p-2 newsc" >
                  <div class="row">
                  <div class="col-3 newsi p-3">
                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -325,15 +343,15 @@
                         52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                         Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                        <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                        <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                        <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                        <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                        <button class="newb2"><a href="News Details.html">Read More</a></button>
+                        <p class="newp1">Apr 11, 2022</p>
                 </div>
                  </div>
              </div>
          </div>
          <div class="col-lg-6 col-sm-12 p-3">
-            <div class="card p-2" style="border:3px solid skyblue;">
+            <div class="card p-2 newsc" >
                 <div class="row">
                 <div class="col-3 newsi p-3">
                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -345,15 +363,15 @@
                        52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                        Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                       <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                       <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                       <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                       <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                       <button class="newb2"><a>Read More</a></button>
+                       <p class="newp1">Apr 11, 2022</p>
                </div>
                 </div>
             </div>
          </div>
          <div class="col-lg-6 col-sm-12 p-3">
-            <div class="card p-2" style="border:3px solid skyblue;">
+            <div class="card p-2 newsc" >
                 <div class="row">
                 <div class="col-3 newsi p-3">
                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -365,15 +383,15 @@
                        52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                        Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                       <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                       <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                       <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                       <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                       <button class="newb2"><a>Read More</a></button>
+                       <p class="newp1">Apr 11, 2022</p>
                </div>
                 </div>
             </div>
          </div>
          <div class="col-lg-6 col-sm-12 p-3">
-            <div class="card p-2" style="border:3px solid skyblue;">
+            <div class="card p-2 newsc" >
                 <div class="row">
                 <div class="col-3 newsi p-3">
                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -385,15 +403,15 @@
                        52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                        Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                       <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                       <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                       <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                       <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                       <button class="newb2"><a>Read More</a></button>
+                       <p class="newp1">Apr 11, 2022</p>
                </div>
                 </div>
             </div>
          </div>
          <div class="col-lg-6 col-sm-12 p-3">
-            <div class="card p-2" style="border:3px solid skyblue;">
+            <div class="card p-2 newsc" >
                 <div class="row">
                 <div class="col-3 newsi p-3">
                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -405,15 +423,15 @@
                        52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                        Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                       <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                       <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                       <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                       <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                       <button class="newb2"><a>Read More</a></button>
+                       <p class="newp1">Apr 11, 2022</p>
                </div>
                 </div>
             </div>
          </div>
          <div class="col-lg-6 col-sm-12 p-3">
-            <div class="card p-2" style="border:3px solid skyblue;">
+            <div class="card p-2 newsc" >
                 <div class="row">
                 <div class="col-3 newsi p-3">
                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -425,9 +443,9 @@
                        52 LPA Kalinga Institute of Industrial Technology (KIIT) Deemed to be University,
                        Bhubaneswar has accomplished historical and record-breaking placement statistics</p>
 
-                       <button style="float: left; padding: 5px; border:1px solid skyblue;"><a>KIIT,Bhubaneswar</a></button>
-                       <button style="float: right; padding: 5px; border:1px solid black; background-color: skyblue;"><a>Read More</a></button>
-                       <p style="float: right; padding: 5px; ">Apr 11, 2022</p>
+                       <button class="newb1" ><a>KIIT,Bhubaneswar</a></button>
+                       <button class="newb2"><a>Read More</a></button>
+                       <p  class="newp1">Apr 11, 2022</p>
                </div>
                 </div>
             </div>
